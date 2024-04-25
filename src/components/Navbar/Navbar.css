@@ -1,0 +1,86 @@
+#navbar-container {
+    border-bottom: 2px solid #008407;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(214,214,214,1);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(214,214,214,1);
+    box-shadow: 0px 4px 8px 0px rgba(214,214,214,1);
+    padding: 0 15px;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    position: absolute;
+    left: 10px;
+}
+
+#navbar-title-link {
+    /* text-decoration: none; */
+    color: #008407;
+}
+
+/* #navbar-buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+} */
+
+#view-cart-navbar-btn {
+    width: 100px;
+}
+
+#view-cart-btn, #navbar-shop-link {
+    border: 2px solid white;
+    color: #008407;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#navbar-shop-link {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#view-cart-btn:hover, #navbar-shop-link:hover {
+    border: 2px solid #008407;
+    cursor: pointer;
+}
+
+#view-cart-btn {
+    position: absolute;
+    right: 15px;
+}
+
+#view-cart-link, #view-shop-link {
+    text-decoration: none;
+    color: #008407;
+}
+
+#view-shop-link {
+    width: 100px;
+}
+
+#navbar-items-count {
+    position: absolute;
+    top: -10px;
+    right: 5px;
+    background-color: aqua;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
